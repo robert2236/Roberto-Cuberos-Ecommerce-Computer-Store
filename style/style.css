@@ -1,16 +1,14 @@
 :root {
   --fondo: black;
 }
-.caract {
-  border: 1px solid red;
-}
+
 html {
   box-sizing: border-box;
   font-size: 62.5%;
 }
 
 body {
-  margin: 0px;
+  margin: 0rem;
   background-color: var(--fondo);
   font-family: "Nerko One", cursive;
 }
@@ -26,14 +24,14 @@ body {
   padding-right: 5rem;
 }
 .nav-menu {
-  background: #4caf50;
-  color: white;
+  background: black;
+  color: greenyellow;
   width: 10rem;
   height: 2rem;
   padding: 0.5rem;
   margin-top: 2rem;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 2rem;
   border-radius: 0.8rem;
 }
 
@@ -56,7 +54,7 @@ nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  border: 1px solid red;
+  margin: 5rem;
 }
 
 .product-containder {
@@ -73,6 +71,7 @@ nav {
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  font-size: 2rem;
 }
 .product-containder:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
@@ -149,13 +148,32 @@ button:hover {
   --transform: translateY(0);
   --transition: transform 0.8s 0.8s;
 }
+.modal__close {
+  color: greenyellow;
+  background-color: black;
+}
+
+.bt-car {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  padding-left: 25rem;
+}
+
+.comprarButton {
+  color: greenyellow;
+  background-color: black;
+}
 
 .modal__container {
   margin: auto;
-  width: 90%;
-  max-width: 600px;
+  width: 100%;
+  max-width: 80%;
   max-height: 90%;
-  background-color: #fff;
+
+  background-repeat: no-repeat;
+  background-size: auto;
+
   border-radius: 6px;
   padding: 1rem 1rem;
   display: grid;
@@ -236,11 +254,12 @@ button:hover {
 }
 
 .shopping-cart {
-  background-color: #eee;
+  background-color: black;
 }
 
 .tabla-carrito {
-  background-color: #ccc;
+  background: rgba(0.12);
+  color: white;
   display: grid;
   grid-template-columns: 1fr 1.5fr repeat(3, 1fr);
   grid-template-rows: 0.1fr 0.2fr;
@@ -251,6 +270,7 @@ button:hover {
 .name-items {
   border-bottom: #4caf50 solid;
   text-align: center;
+  font-size: 1.5rem;
 }
 
 .product-picture {
@@ -277,16 +297,21 @@ button:hover {
 }
 
 .total-price {
-  background-color: #ccc;
+  background-color: black;
+  font-size: 3rem;
 }
 .total-row {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: #ccc;
+  color: greenyellow;
+  background-color: black;
+  font-size: 2.5rem;
   align-items: stretch;
 }
 .producto-total {
   padding-left: 5rem;
   padding-right: 5rem;
+}
+@media screen and (max-width: 480px) {
 }

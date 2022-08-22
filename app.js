@@ -1,4 +1,4 @@
-/*const openModal = document.querySelector(".car-shop");
+const openModal = document.querySelector(".car-shop");
 const modal = document.querySelector(".modal");
 const closeModal = document.querySelector(".modal__close");
 
@@ -12,7 +12,7 @@ closeModal.addEventListener("click", (e) => {
   e.preventDefault();
   modal.classList.remove("modal--show");
 });
-*/
+
 const addToShoppingCartButtons = document.querySelectorAll(".addToCart");
 addToShoppingCartButtons.forEach((addToCartButton) => {
   addToCartButton.addEventListener("click", addToCartClicked);
@@ -48,21 +48,19 @@ function addItemToShoppingCart(itemTitle, itemPrice, itemImage) {
         ".shoppingCartItemQuantity"
       );
       elementQuantity.value++;
-      /* $(".toast").toast("show");
-      updateShoppingCartTotal();
-      return;*/
     }
   }
 
   const shoppingCartRow = document.createElement("div");
   const shoppingCartContent = `
+           
             <div class="tabla-carrito shoppingCartItem">
             <div class="name-items "><img class="product-picture"    src=${itemImage} alt="producto"></div>
             <div class="name-items"><p class="producto-name shoppingCartItemTitle">${itemTitle}</p></div>
             <div class="name-items "><p class="producto-price shoppingCartItemPrice ">${itemPrice}</p></div>
             <div class="name-items"><input class="input-st shoppingCartItemQuantity" type="number" value="1"></div>
             <div class="name-items"><button class="bt-close buttonDelete">X</button></div>
-          </div>
+          </div> 
          `;
   shoppingCartRow.innerHTML = shoppingCartContent;
   shoppingCartItemsContainer.append(shoppingCartRow);
