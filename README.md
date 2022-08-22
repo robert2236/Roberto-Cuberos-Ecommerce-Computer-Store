@@ -18,6 +18,6 @@ Ecommerce Desarrollado con HTML, CSS y JavaScript
     <p>*Formulario de pago con tarjeta de debito o cuenta electronica</p>
     <p>*Mensaje que indique que el producto esta siendo procesado.</p>
   <h4>Version Web 💻</h4>
-<strong![tiendaOnline](https://user-images.githubusercontent.com/91293983/186038853-3be9cdcc-2f07-4261-8fd2-7fa82c3466b8.png)
+[tiendaOnline](https://user-images.githubusercontent.com/91293983/186038853-3be9cdcc-2f07-4261-8fd2-7fa82c3466b8.png)
   <h4> <strong>Version movil 📱 </h4>
 <p> En construccion algunas partes como el menu de hamburguesa y volver responsive el menu del carrito. </p>
