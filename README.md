@@ -20,4 +20,4 @@ Ecommerce Desarrollado con HTML, CSS y JavaScript
   <h4>Version Web 💻</h4>
 <strong![tiendaOnline](https://user-images.githubusercontent.com/91293983/186038853-3be9cdcc-2f07-4261-8fd2-7fa82c3466b8.png)
   <h4> <strong>Version movil 📱 </h4>
- En construccion algunas partes como el menu de hamburguesa y volver responsive el menu del carrito.
+<p> En construccion algunas partes como el menu de hamburguesa y volver responsive el menu del carrito. </p>
